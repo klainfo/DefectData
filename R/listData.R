@@ -8,6 +8,8 @@
 #' 
 #' 
 listData <- function(){
+    getSystemName <- function(data) {sapply(strsplit(basename(data),"\\."), function(x) paste(x[1:(length(x)-1)], collapse="."))}
+    
     return(list(
         "mccabe" = getSystemName(list.files("inst/extdata/terapromise/mccabe")),
         "ck" = getSystemName(list.files("inst/extdata/terapromise/ck")),
