@@ -1,0 +1,11 @@
+name,version,name,wmc,dit,noc,cbo,rfc,lcom,ca,ce,npm,lcom3,loc,dam,moa,mfa,cam,ic,cbm,amc,max_cc,avg_cc,bug
+ckjm,1.8,gr.spinellis.ckjm.ClassMap,3,1,0,1,21,0,0,1,2,0,74,1,0,0,0.555555556,0,0,23.33333333,2,1.3333,0
+ckjm,1.8,gr.spinellis.ckjm.ClassMetricsContainer,3,1,0,4,18,0,2,3,2,0,66,1,0,0,0.555555556,0,0,20.66666667,3,1.6667,0
+ckjm,1.8,gr.spinellis.ckjm.ClassMetrics,23,1,0,7,32,183,7,0,22,0.890909091,205,1,0,0,0.405797101,0,0,7.47826087,6,1.1739,8
+ckjm,1.8,gr.spinellis.ckjm.ClassVisitor,13,2,0,14,72,34,2,14,9,0.604166667,419,0.875,2,0.727272727,0.240384615,0,0,30.61538462,5,2.2308,6
+ckjm,1.8,gr.spinellis.ckjm.ant.PrintXmlResults,4,1,0,3,19,0,1,2,4,0,97,1,0,0,0.4375,0,0,23,1,0.75,4
+ckjm,1.8,gr.spinellis.ckjm.PrintPlainResults,2,1,0,4,8,0,2,2,2,0,24,1,0,0,0.625,0,0,10.5,1,0.5,0
+ckjm,1.8,gr.spinellis.ckjm.MethodVisitor,11,2,0,21,40,0,1,21,8,0.55,209,1,2,0.947368421,0.173553719,0,0,17.63636364,5,1.9091,0
+ckjm,1.8,gr.spinellis.ckjm.ant.CkjmTask,5,4,0,7,28,0,0,7,5,0.666666667,156,1,0,0.951219512,0.533333333,2,2,29.6,1,0.8,2
+ckjm,1.8,gr.spinellis.ckjm.CkjmOutputHandler,1,1,0,6,1,0,5,1,1,2,1,0,0,0,1,0,0,0,1,1,0
+ckjm,1.8,gr.spinellis.ckjm.MetricsFilter,7,1,0,7,30,11,3,6,5,0.666666667,218,1,0,0,0.2,0,0,29.85714286,7,2.1429,3

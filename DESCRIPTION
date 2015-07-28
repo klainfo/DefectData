@@ -1,0 +1,15 @@
+Package: DefectData
+Type: Package
+Title: An R package of Defect Prediction Datasets for Software Engineering Research
+Version: 0.1
+Date: 2015-07-27
+Author: Chakkrit Tantithamthavorn
+Maintainer: Chakkrit Tantithamthavorn <kla@chakkrit.com>
+Description: An R package of Defect Prediction Datasets for Software Engineering Research
+License: MIT
+Imports:
+    foreign,
+    e1071,
+    base
+BuildVignettes: False
+LazyData: true
