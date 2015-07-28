@@ -6,7 +6,7 @@ The R package DefectData is a collection of software metrics dataset for softwar
 ### install
 with `devtools `:
 ```r
-devtools::install_github('klainfo/DefectData', build_vignettes = TRUE)
+devtools::install_github('klainfo/DefectData')
 ```
 ### Usage
 ```r
