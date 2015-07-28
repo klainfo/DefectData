@@ -13,3 +13,4 @@ Imports:
     base
 BuildVignettes: False
 LazyData: False
+Encoding: UTF-8
