@@ -13,10 +13,11 @@
 #' data$data
 #' 
 loadData <- function(system_name,corpus=""){
-    data(listData, package="DefectData")
-    library(foreign)
-    library(e1071) 
-    library(base)
+#     listData <- load(system.file("data/listData.rda",package="DefectData"))
+    
+    suppressMessages(library(foreign))
+    suppressMessages(library(base))
+    suppressMessages(library(e1071))
     
     corpus <- ifelse(corpus == "", listData[listData$system == system_name,]$corpus,corpus)
 

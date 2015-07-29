@@ -15,3 +15,4 @@ Imports:
 LazyData: true
 URL: https://github.com/klainfo/DefectData
 BugReports: https://github.com/klainfo/DefectData/issues
+Encoding: UTF-8

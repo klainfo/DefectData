@@ -11,7 +11,6 @@
 #'   \item Predictors. the number of predictors (independent variable).
 #'   \item EPV. the number of event per variables (EPV).
 #' }
-#'
 #' @format A data frame with 101 rows and 7 variables
 #' @source \url{http://www.openscience.us/repo}
 #' @name listData
