@@ -35,4 +35,5 @@ indexing <- function(){
 }
 
 listData <- indexing()
+colnames(listData) <- c("system","corpus","DefectiveRatio","Modules","Defective","Predictors","EPV")
 save(listData,file="data/listData.rda")
