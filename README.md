@@ -1,4 +1,4 @@
-DefectData
+DefectData [![Travis-CI Build Status](https://travis-ci.org/klainfo/DefectData.png?branch=master)](https://travis-ci.org/klainfo/DefectData)
 =================
 The R package DefectData is a collection of software metrics dataset for software engineering researchers.
 
