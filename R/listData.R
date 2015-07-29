@@ -11,10 +11,11 @@ listData <- function(){
     getSystemName <- function(data) {sapply(strsplit(basename(data),"\\."), function(x) paste(x[1:(length(x)-1)], collapse="."))}
     
     return(list(
-        "mccabe" = getSystemName(list.files("inst/extdata/terapromise/mccabe")),
-        "ck" = getSystemName(list.files("inst/extdata/terapromise/ck")),
-        "eclipse" = getSystemName(list.files("inst/extdata/zimmermann")),
-        "kim" = getSystemName(list.files("inst/extdata/kim")) ,
-        "ambros" = getSystemName(list.files("inst/extdata/ambros"))
+        "mccabe" = getSystemName(list.files(system.file("extdata/terapromise/mccabe", package = "DefectData"))),
+        "ck" = getSystemName(list.files(system.file("extdata/terapromise/ck", package = "DefectData"))),
+        "eclipse" = getSystemName(list.files(system.file("extdata/zimmermann", package = "DefectData"))),
+        "kim" = getSystemName(list.files(system.file("extdata/kim", package = "DefectData"))) ,
+        "ambros" = getSystemName(list.files(system.file("extdata/ambros", package = "DefectData")))
     ))
 }
+

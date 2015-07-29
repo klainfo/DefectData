@@ -11,6 +11,7 @@ Imports:
     foreign,
     e1071,
     base
-BuildVignettes: False
-LazyData: False
-Encoding: UTF-8
+LazyData: true
+URL: https://github.com/klainfo/DefectData
+BugReports: https://github.com/klainfo/DefectData/issues
+VignetteBuilder: knitr
