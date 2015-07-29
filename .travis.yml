@@ -7,16 +7,16 @@ sudo: required
 warnings_are_errors: true
 
 before_install:
-  - make build
+  make build
 
 install:
-  - make install
+  make install
 
 script:
     make check
 
 env:
-  - WARNINGS_ARE_ERRORS=1
+  WARNINGS_ARE_ERRORS=1
 
 notifications:
   email:
@@ -24,4 +24,4 @@ notifications:
     on_failure: change
 
 r_github_packages:
- - klainfo/DefectData
+    klainfo/DefectData
