@@ -34,7 +34,7 @@ Maintainer: Chakkrit (Kla) Tantithamthavorn <kla@chakkrit.com>
 }
 \examples{
 # What data are available in this R package
-# listData()
+# listData
 
 # Loading a dataset by specifying a system name
 # loadData("JM1")

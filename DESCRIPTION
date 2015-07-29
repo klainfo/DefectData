@@ -10,8 +10,8 @@ License: MIT
 Imports:
     foreign,
     e1071,
-    base
+    base,
+    reshape
 LazyData: true
 URL: https://github.com/klainfo/DefectData
 BugReports: https://github.com/klainfo/DefectData/issues
-VignetteBuilder: knitr

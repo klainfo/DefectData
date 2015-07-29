@@ -4,10 +4,10 @@
 \alias{loadData}
 \title{A Load Defect Data function}
 \usage{
-loadData(system)
+loadData(system_name, corpus = "")
 }
 \arguments{
-\item{system}{system name}
+\item{system_name}{system_name name}
 }
 \value{
 an object of data
@@ -17,5 +17,8 @@ This function allows you to load defect data in software engineering research
 }
 \examples{
 data <- loadData("jdt")
+data$dep
+data$indep
+data$data
 }
 

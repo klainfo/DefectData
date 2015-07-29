@@ -1,21 +1,19 @@
-#' A list defect data function
+#' List of defect datasets
 #'
-#' This function allows you to list all defect datasets that are available in this R package
-#' 
-#' @export
-#' @examples
-#' listData()
-#' 
-#' 
-listData <- function(){
-    getSystemName <- function(data) {sapply(strsplit(basename(data),"\\."), function(x) paste(x[1:(length(x)-1)], collapse="."))}
-    
-    return(list(
-        "mccabe" = getSystemName(list.files(system.file("extdata/terapromise/mccabe", package = "DefectData"))),
-        "ck" = getSystemName(list.files(system.file("extdata/terapromise/ck", package = "DefectData"))),
-        "eclipse" = getSystemName(list.files(system.file("extdata/zimmermann", package = "DefectData"))),
-        "kim" = getSystemName(list.files(system.file("extdata/kim", package = "DefectData"))) ,
-        "ambros" = getSystemName(list.files(system.file("extdata/ambros", package = "DefectData")))
-    ))
-}
+#' This command lists all defect datasets that are available in this R package
+#'
+#' \itemize{
+#'   \item system. the system name.
+#'   \item corpus. the corpus of wher it comes from.
+#'   \item DefectiveRatio. the defective ratio of the data.
+#'   \item Modules. the number of modules.
+#'   \item Defective. the number of defective modules.
+#'   \item Predictors. the number of predictors (independent variable).
+#'   \item EPV. the number of event per variables (EPV).
+#' }
+#'
+#' @format A data frame with 53940 rows and 10 variables
+#' @source \url{http://www.diamondse.info/}
+#' @name listData
 
+"listData"

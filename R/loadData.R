@@ -12,13 +12,13 @@
 #' data$indep
 #' data$data
 #' 
-loadData <- function(system_name){
-    
+loadData <- function(system_name,corpus=""){
+    data(listData)
     library(foreign)
     library(e1071) 
     library(base)
     
-    repo <- names(listData())[grep(system_name, listData())]
+    corpus <- ifelse(corpus == "", listData[listData$system == system_name,]$corpus,corpus)
 
     read.mccabe <- function(system_name){
         filename <- system.file("extdata/terapromise/mccabe",paste0(system_name,".arff"), package = "DefectData")
@@ -77,7 +77,7 @@ loadData <- function(system_name){
         return(list(data = data[,c(indep,dep)], dep = dep, indep = indep))
     }
     pool <- NULL
-    switch(repo, 
+    switch(corpus, 
            mccabe={    pool <- read.mccabe(system_name) },
            ck={     pool <- read.ck(system_name) },
            eclipse={    pool <- read.eclipse(system_name) },

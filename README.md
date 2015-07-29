@@ -3,7 +3,7 @@ DefectData [![Travis-CI Build Status](https://travis-ci.org/klainfo/DefectData.p
 The R package DefectData is a collection of software metrics dataset for software engineering researchers.
 
 
-### install
+### Install
 with `devtools `:
 ```r
 devtools::install_github('klainfo/DefectData')
