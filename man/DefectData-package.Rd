@@ -27,10 +27,9 @@ Maintainer: Chakkrit (Kla) Tantithamthavorn <kla@chakkrit.com>
 -
 }
 -
-\keyword{ package }
+\keyword{ DefectData }
 \seealso{
 -
- \code{\link[<pkg>:<pkg>-package]{<pkg>}} 
 }
 \examples{
 # What data are available in this R package
