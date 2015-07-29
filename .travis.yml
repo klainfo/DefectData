@@ -1,6 +1,10 @@
 # Sample .travis.yml for R projects from https://github.com/craigcitro/r-travis
 
-language: c
+language: r
+sudo: required
+
+# Be strict when checking our package
+warnings_are_errors: true
 
 before_install:
   - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
@@ -22,3 +26,6 @@ notifications:
   email:
     on_success: change
     on_failure: change
+
+r_github_packages:
+ - klainfo/DefectData
