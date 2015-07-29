@@ -15,4 +15,4 @@
 #' @format A data frame with 101 rows and 7 variables
 #' @source \url{http://www.openscience.us/repo}
 #' @name listData
-NULL
+"listData"

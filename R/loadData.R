@@ -13,7 +13,7 @@
 #' data$data
 #' 
 loadData <- function(system_name,corpus=""){
-    data(listData)
+    data(listData, package="DefectData")
     library(foreign)
     library(e1071) 
     library(base)
